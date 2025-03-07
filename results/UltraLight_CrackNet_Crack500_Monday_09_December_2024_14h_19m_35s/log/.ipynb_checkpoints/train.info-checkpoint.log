@@ -1,0 +1,46 @@
+2024-12-09 14:19:35 - #----------Config info----------#
+2024-12-09 14:19:35 - network: UltraLight_VM_UNet,
+2024-12-09 14:19:35 - model_config: {'num_classes': 1, 'input_channels': 3, 'c_list': [8, 16, 24, 32, 48, 64], 'split_att': 'fc', 'bridge': True},
+2024-12-09 14:19:35 - datasets: Crack500,
+2024-12-09 14:19:35 - criterion: BceDiceLoss(
+  (bce): BCELoss()
+  (dice): DiceLoss()
+),
+2024-12-09 14:19:35 - pretrained_path: ./pre_trained/,
+2024-12-09 14:19:35 - num_classes: 1,
+2024-12-09 14:19:35 - input_size_h: 384,
+2024-12-09 14:19:35 - input_size_w: 384,
+2024-12-09 14:19:35 - input_channels: 3,
+2024-12-09 14:19:35 - distributed: False,
+2024-12-09 14:19:35 - local_rank: -1,
+2024-12-09 14:19:35 - num_workers: 8,
+2024-12-09 14:19:35 - seed: 42,
+2024-12-09 14:19:35 - world_size: None,
+2024-12-09 14:19:35 - rank: None,
+2024-12-09 14:19:35 - amp: False,
+2024-12-09 14:19:35 - gpu_id: 0,
+2024-12-09 14:19:35 - batch_size: 8,
+2024-12-09 14:19:35 - epochs: 100,
+2024-12-09 14:19:35 - work_dir: results/UltraLight_VM_UNet_Crack500_Monday_09_December_2024_14h_19m_35s/,
+2024-12-09 14:19:35 - print_interval: 237,
+2024-12-09 14:19:35 - val_interval: 10,
+2024-12-09 14:19:35 - save_interval: 224,
+2024-12-09 14:19:35 - threshold: 0.5,
+2024-12-09 14:19:35 - opt: AdamW,
+2024-12-09 14:19:35 - lr: 0.006,
+2024-12-09 14:19:35 - betas: (0.9, 0.999),
+2024-12-09 14:19:35 - eps: 1e-08,
+2024-12-09 14:19:35 - weight_decay: 0.01,
+2024-12-09 14:19:35 - amsgrad: False,
+2024-12-09 14:19:35 - sch: CosineAnnealingLR,
+2024-12-09 14:19:35 - T_max: 100,
+2024-12-09 14:19:35 - eta_min: 1e-05,
+2024-12-09 14:19:35 - last_epoch: -1,
+2024-12-09 14:19:38 - flops: 1.10, params: 0.13, Total params: : 0.16
+2024-12-09 14:19:40 - train: epoch 1, iter:0, loss: 1.5961, lr: 0.006
+2024-12-09 14:20:50 - val epoch: 1, loss: 0.7026
+2024-12-09 14:20:51 - train: epoch 2, iter:0, loss: 0.6464, lr: 0.0059985221482953665
+2024-12-09 14:22:03 - val epoch: 2, loss: 0.6505
+2024-12-09 14:22:04 - train: epoch 3, iter:0, loss: 0.4374, lr: 0.005994090051642674
+2024-12-09 14:23:16 - val epoch: 3, loss: 0.6924
+2024-12-09 14:23:17 - train: epoch 4, iter:0, loss: 0.4882, lr: 0.005986708083986225
